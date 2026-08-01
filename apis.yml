@@ -1,7 +1,27 @@
 aid: soldaai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/soldaai.png
 name: Solda.ai
-description: 'Solda.ai is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Solda.ai is an AI sales-agent platform that provides fully automated,
+  autonomous sales departments powered by AI agents. Its voice- and text-based AI
+  sales representatives execute the full sales cycle end to end, handling outbound
+  cold outreach, inbound calls, follow-ups, callbacks, conversion optimization via
+  A/B testing, and use cases such as credit-card and loan upselling, card activation,
+  debt collection, and B2B lead qualification. The company markets primarily to banking
+  and fintech customers and states compliance with SOC 2, HIPAA, and the EU AI Act.
+  Solda.ai is a venture-backed company (Accel portfolio) headquartered in Middletown,
+  Delaware. As of this enrichment pass the company exposes a marketing site, blog,
+  and legal pages, but publishes no public developer API, SDKs, or API documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/soldaai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +31,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
 - Ai
+- Artificial Intelligence
+- Sales
+- Voice AI
+- AI Agents
+- Sales Automation
+- Fintech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/soldaai-domain-security.yml
+- type: Website
+  url: https://solda.ai
+- type: Blog
+  url: https://solda.ai/blog
+- type: TermsOfService
+  url: https://solda.ai/regulations/terms
+- type: PrivacyPolicy
+  url: https://solda.ai/regulations/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
