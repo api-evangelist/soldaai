@@ -39,6 +39,14 @@ x-enrichment:
   pass: local-v1
 tags:
 - Company
+- Artificial Intelligence
+- Sales
+- Voice AI
+- AI Agents
+- Sales Automation
+- Fintech
+tags_raw:
+- Company
 - Ai
 - Artificial Intelligence
 - Sales
